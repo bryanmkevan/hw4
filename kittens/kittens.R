@@ -6,6 +6,7 @@ library(lime)
 library(magick)
 library(dplyr)
 library("rvest")
+library(tensorflow)
 
 ## Testing Hotdog Accuracy
 model <- application_vgg16(
@@ -61,10 +62,10 @@ get_stats <- function(term, outPath) {
 }
 
 term = "pizza"
-system(paste0("rm ~/hw4/kittens/images/*"))
+#system(paste0("rm ~/hw4/kittens/images/*"))
 stats_out <- get_stats(term, outPath = "~/hw4/kittens/images")
 
-### percent of first page of google results recognized as hotdog
+### percent of first page of google results recognized as pizza
 stats_out2 <- stats_out %>%
   group_by(n) %>%
   filter(score == max(score)) %>%
