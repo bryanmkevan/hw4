@@ -1,6 +1,7 @@
 #install.packages("magick")
 #install.packages("lime")
 
+## HI KRISTEN!!
 library(keras)
 library(lime)
 library(magick)
