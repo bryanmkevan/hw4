@@ -21,7 +21,9 @@ download_images <- function(term, url, outPath) {
     html_attr("src")
   
   for(i in 1:length(imageurl)){
-    download.file(imageurl[i], destfile = paste0(outPath, "/", term, "_", i, ".jpg"), mode = 'wb')
+    download.file(imageurl[i],
+                  destfile = paste0(outPath, "/", i, ".jpg"),
+                  mode = 'wb')
   }
 }
 
@@ -34,7 +36,7 @@ get_stats <- function(term, outPath) {
   ## Create bin for output stats
   stats_out <- matrix(nrow = 0, ncol = 3)
   for (i in c(1:length(list.files(outPath)))) {
-    img <- image_read(paste0(outPath, "/", term,"_",i,".jpg"))
+    img <- image_read(paste0(outPath, "/",i,".jpg"))
     img_path <- file.path(tempdir(), 'image.jpg')
     image_write(img, img_path)
     plot(as.raster(img))
@@ -58,7 +60,7 @@ get_stats <- function(term, outPath) {
   return(stats_out)
 }
 
-term = "hotdog"
+term = "pizza"
 system(paste0("rm ~/hw4/kittens/images/*"))
 stats_out <- get_stats(term, outPath = "~/hw4/kittens/images")
 
@@ -68,8 +70,8 @@ stats_out2 <- stats_out %>%
   filter(score == max(score)) %>%
   ungroup() %>%
   select(class_description, score) %>%
-  mutate(pizza = ifelse(grepl("hotdog|hot dog", class_description), 1, 0)) %>%
-  summarize(mean(pizza))
+  mutate(item = ifelse(grepl(term, class_description), 1, 0)) %>%
+  summarize(mean(item))
 
 cat("The neural net recognized", as.character(100*stats_out2),"%",
     "of the pictures of", term, "on the first page of Google results")
