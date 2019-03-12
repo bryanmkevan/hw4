@@ -1,7 +1,6 @@
 #install.packages("magick")
 #install.packages("lime")
 
-## HI KRISTEN!!
 library(keras)
 library(lime)
 library(magick)
@@ -64,7 +63,7 @@ get_stats <- function(term, outPath) {
 
 term = "pizza"
 #system(paste0("rm ~/hw4/kittens/images/*"))
-stats_out <- get_stats(term, outPath = "~/hw4/kittens/images")
+stats_out <- get_stats(term, outPath = "/home/bryanmkevan/hw4/kittens/images")
 
 ### percent of first page of google results recognized as pizza
 stats_out2 <- stats_out %>%
