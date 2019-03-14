@@ -8,6 +8,9 @@ library(dplyr)
 library("rvest")
 library(tensorflow)
 
+## Search term
+term = "pizza"
+
 ## Testing Hotdog Accuracy
 model <- application_vgg16(
   weights = "imagenet",
@@ -37,7 +40,7 @@ get_stats <- function(term, outPath) {
   ## Create bin for output stats
   stats_out <- matrix(nrow = 0, ncol = 3)
   for (i in c(1:length(list.files(outPath)))) {
-    img <- image_read(paste0(outPath, "/",i,".jpg"))
+    img <- image_read(paste0(outPath, "/",i ,".jpg"))
     img_path <- file.path(tempdir(), 'image.jpg')
     image_write(img, img_path)
     plot(as.raster(img))
@@ -61,8 +64,6 @@ get_stats <- function(term, outPath) {
   return(stats_out)
 }
 
-term = "pizza"
-#system(paste0("rm ~/hw4/kittens/images/*"))
 stats_out <- get_stats(term, outPath = "/home/bryanmkevan/hw4/kittens/images")
 
 ### percent of first page of google results recognized as pizza
@@ -84,6 +85,12 @@ stats_out3 <- stats_out %>%
   summarize(n = n()) %>%
   arrange(desc(n)) %>%
   head(15)
+
+stats_out3
+
+# remove temp files
+for(i in list.files("images/")) file.remove(paste0("images/", i))
+
 
 
 
