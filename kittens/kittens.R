@@ -11,6 +11,8 @@ library(tensorflow)
 ## Search term
 term = "pizza"
 
+system("mkdir /home/bryanmkevan/hw4/kittens/images")
+
 ## Testing Hotdog Accuracy
 model <- application_vgg16(
   weights = "imagenet",
@@ -89,7 +91,8 @@ stats_out3 <- stats_out %>%
 stats_out3
 
 # remove temp files
-for(i in list.files("images/")) file.remove(paste0("images/", i))
+
+system("rm -r /home/bryanmkevan/hw4/kittens/images")
 
 
 
