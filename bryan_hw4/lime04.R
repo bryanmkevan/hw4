@@ -10,6 +10,7 @@ suppressMessages(suppressWarnings(library(tensorflow)))
 
 args <- commandArgs(TRUE)
 
+<<<<<<< HEAD:bryan_hw4/lime04.R
 ## Search term
 term = as.character(args[1])
 
@@ -17,6 +18,9 @@ term = as.character(args[1])
 system("mkdir /home/bryanmkevan/hw4/bryan_hw4/images")
 
 ## Testing image accuracy
+=======
+## Testing Hotdog Accuracy
+>>>>>>> b2e59ced223871c421fb915b3812a44ddc9d8ed9:kittens/kittens.R
 model <- application_vgg16(
   weights = "imagenet",
   include_top = TRUE
@@ -46,7 +50,7 @@ get_stats <- function(term, outPath) {
   ## Create bin for output stats
   stats_out <- matrix(nrow = 0, ncol = 3)
   for (i in c(1:length(list.files(outPath)))) {
-    img <- image_read(paste0(outPath, "/",i ,".jpg"))
+    img <- image_read(paste0(outPath, "/",i,".jpg"))
     img_path <- file.path(tempdir(), 'image.jpg')
     image_write(img, img_path)
     
@@ -69,7 +73,13 @@ get_stats <- function(term, outPath) {
   return(stats_out)
 }
 
+<<<<<<< HEAD:bryan_hw4/lime04.R
 stats_out <- get_stats(term, outPath = "/home/bryanmkevan/hw4/bryan_hw4/images")
+=======
+term = "pizza"
+#system(paste0("rm ~/hw4/kittens/images/*"))
+stats_out <- get_stats(term, outPath = "/home/bryanmkevan/hw4/kittens/images")
+>>>>>>> b2e59ced223871c421fb915b3812a44ddc9d8ed9:kittens/kittens.R
 
 ### percent of first page of google results recognized as containing 'term'
 stats_out2 <- stats_out %>%
@@ -95,6 +105,7 @@ stats_out3 <- stats_out %>%
   arrange(desc(n)) %>%
   head(15)
 
+<<<<<<< HEAD:bryan_hw4/lime04.R
 stats_out3
 
 # remove temp files
@@ -104,6 +115,8 @@ system("rm -r /home/bryanmkevan/hw4/bryan_hw4/images")
 
 
 
+=======
+>>>>>>> b2e59ced223871c421fb915b3812a44ddc9d8ed9:kittens/kittens.R
 
 
 
