@@ -5,6 +5,8 @@ library(knitr)     # Table printing
 library(rmarkdown) # Misc. output utilities 
 library(ggridges)  # Visualization
 
+
+
 setwd("/home/suneeta.godbole/hw4/suni_hw4")
 
 activityLabels <- read.table("activity_labels.txt", 
