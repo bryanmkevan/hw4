@@ -1,6 +1,6 @@
 ---
 title: "README.Rmd"
-output: html_document
+output: github_document
 ---
 
 ## HW4: Group Project
