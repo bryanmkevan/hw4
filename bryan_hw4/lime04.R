@@ -10,7 +10,6 @@ suppressMessages(suppressWarnings(library(tensorflow)))
 
 args <- commandArgs(TRUE)
 
-<<<<<<< HEAD:bryan_hw4/lime04.R
 ## Search term
 term = as.character(args[1])
 
@@ -18,9 +17,6 @@ term = as.character(args[1])
 system("mkdir /home/bryanmkevan/hw4/bryan_hw4/images")
 
 ## Testing image accuracy
-=======
-## Testing Hotdog Accuracy
->>>>>>> b2e59ced223871c421fb915b3812a44ddc9d8ed9:kittens/kittens.R
 model <- application_vgg16(
   weights = "imagenet",
   include_top = TRUE
@@ -73,13 +69,7 @@ get_stats <- function(term, outPath) {
   return(stats_out)
 }
 
-<<<<<<< HEAD:bryan_hw4/lime04.R
 stats_out <- get_stats(term, outPath = "/home/bryanmkevan/hw4/bryan_hw4/images")
-=======
-term = "pizza"
-#system(paste0("rm ~/hw4/kittens/images/*"))
-stats_out <- get_stats(term, outPath = "/home/bryanmkevan/hw4/kittens/images")
->>>>>>> b2e59ced223871c421fb915b3812a44ddc9d8ed9:kittens/kittens.R
 
 ### percent of first page of google results recognized as containing 'term'
 stats_out2 <- stats_out %>%
@@ -95,8 +85,8 @@ cat("The neural net recognized", as.character(100*stats_out2),"%",
 
 ### top frequency item recognized of 'term'
 
-cat("Here are the top items that were identified in the 
-    first page of images:\n")
+cat("Here are the top items that were identified as", term, 
+    " in the first page of images:\n")
 
 stats_out3 <- stats_out %>%
   select(-class_name, -score, -n) %>%
@@ -105,20 +95,11 @@ stats_out3 <- stats_out %>%
   arrange(desc(n)) %>%
   head(15)
 
-<<<<<<< HEAD:bryan_hw4/lime04.R
-stats_out3
+as.data.frame(stats_out3)
 
 # remove temp files
 
 system("rm -r /home/bryanmkevan/hw4/bryan_hw4/images")
-
-
-
-
-=======
->>>>>>> b2e59ced223871c421fb915b3812a44ddc9d8ed9:kittens/kittens.R
-
-
 
 
 

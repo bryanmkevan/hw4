@@ -1,9 +1,13 @@
+---
+title: "README.Rmd"
+output: html_document
+---
+
 ## HW4: Group Project
 Biostat 280M - Bryan Kevan, Kristen McGreevy, Suneeta Godbole, Stephen Kwok
 
 Readme
 
-<<<<<<< HEAD:README.Rmd
 ## Lime v.04: Bryan Kevan
 
 For my blog post replication, I implemented the code on the tensorflow blog for image recognition on a selection of google search results to test its accuracy. The first part of the app pulls the top images on google for a given search term, and determines the percentage of them the lime algorithm can identify correctly. 
@@ -17,8 +21,6 @@ The second part of kittens.R determines the top 15 items that the algorithm iden
 
 The algorithm works pretty well for pizzas (75% accuracy), and less well for bagels (45%).
 
-=======
->>>>>>> b2e59ced223871c421fb915b3812a44ddc9d8ed9:README.md
 
 
 
