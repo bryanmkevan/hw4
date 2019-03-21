@@ -14,8 +14,6 @@ library(tidyverse) # Data cleaning / Visualization
 library(knitr)     # Table printing
 library(rmarkdown) # Misc. output utilities 
 library(ggridges)  # Visualization
-
-setwd("./suni_hw4")
 ```
 
 ## Get data from UCI site and unzip to data folder
@@ -386,7 +384,7 @@ summary(model)
 ```
 Changing number of filters to 36, reduced the accuracy of the validation. 
 Adding another convolution layer, reduced the accuracy of the validation.
-Adding another spatial dropout layer, reducted the accurayc of the validation. 
+Adding another spatial dropout layer, reducted the accuracy of the validation. 
 
 
 ### Training Model
@@ -410,6 +408,7 @@ trainHistory <- model %>%
   )
 
 ```
+
 ### Test Model
 ```{r}
 # dataframe to get labels onto one-hot encoded prediction columns
