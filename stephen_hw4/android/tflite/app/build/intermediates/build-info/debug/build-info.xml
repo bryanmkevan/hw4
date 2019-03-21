@@ -6,8 +6,8 @@
     density="hdpi"
     format="10"
     plugin-version="3.0.0"
-    timestamp="1553190439214"
-    token="8610429004027780803"
+    timestamp="1553192154880"
+    token="-8411040983728234948"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
@@ -18,76 +18,43 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="356" />
     <task
         name="verifier"
-        duration="0" />
+        duration="163" />
 
     <artifact
-        location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/sdkwok/Desktop/tensorflow-for-poets-2/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/sdkwok/Desktop/tensorflow-for-poets-2/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/sdkwok/Desktop/tensorflow-for-poets-2/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/sdkwok/Desktop/tensorflow-for-poets-2/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/sdkwok/Desktop/tensorflow-for-poets-2/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/sdkwok/Desktop/tensorflow-for-poets-2/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/sdkwok/Desktop/tensorflow-for-poets-2/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
         type="SPLIT" />
     <artifact
         location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/sdkwok/Desktop/tensorflow-for-poets-2/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
         type="SPLIT" />
     <artifact
         location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/sdkwok/Desktop/tensorflow-for-poets-2/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/sdkwok/Desktop/tensorflow-for-poets-2/android/tflite/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/sdkwok/Desktop/tensorflow-for-poets-2/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
         type="SPLIT" />
     <artifact
         location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
         type="SPLIT" />
     <artifact
         location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/outputs/apk/debug/app-debug.apk"
@@ -95,73 +62,40 @@
 
     <build
         build-mode="FULL"
-        timestamp="1553190439214"
+        timestamp="1553192154880"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/sdkwok/Desktop/tensorflow-for-poets-2/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/sdkwok/Desktop/tensorflow-for-poets-2/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/sdkwok/Desktop/tensorflow-for-poets-2/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/sdkwok/Desktop/tensorflow-for-poets-2/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/sdkwok/Desktop/tensorflow-for-poets-2/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/sdkwok/Desktop/tensorflow-for-poets-2/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/sdkwok/Desktop/tensorflow-for-poets-2/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
             location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/sdkwok/Desktop/tensorflow-for-poets-2/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
             location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/sdkwok/Desktop/tensorflow-for-poets-2/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/sdkwok/Desktop/tensorflow-for-poets-2/android/tflite/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/sdkwok/Desktop/tensorflow-for-poets-2/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
             location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
             location="/Users/sdkwok/hw4/stephen_hw4/android/tflite/app/build/outputs/apk/debug/app-debug.apk"
