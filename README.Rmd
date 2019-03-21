@@ -37,18 +37,39 @@ This is an alternative first step to developing a shiny app that can identify ob
 
 #Stephen Kwok's Contributions
 
-1. Blog post on autoencoders.
-2. Worked on Android app (adapted from Google Cloud Vision):
+1. I replicated a RStudio blog post on variational autoencoders (VAE):
 
---Added a credits button that displays a message containing the purpose of the project and the names of the team members who worked on it.
+https://blogs.rstudio.com/tensorflow/posts/2018-10-22-mmd-vae/
 
+These used two kinds of VAE to model the domain space of a set of images (of clothing), and generated a large number of images of the latent space of the test images. These can be found in the 
 
+stephen_hw4
 
+folder of the GitHub repository.
 
+2. I added a simple credits button to the Google Cloud Vision Android app (discussed under Suneeta Godbole's contributions),  that, when clicked, displays a message containing the purpose of the project and the names of the team members who worked on it.
 
+3. I put together a second Android food image classification app, adapting a project from:
 
+https://riggaroo.co.za/building-a-custom-machine-learning-model-on-android-with-tensorflow-lite/
 
+Using this project as a template, I retrained a pretrained neural net using TensorFlow on a dataset of images of 100 types of Japanese food obtained from:
 
+http://foodcam.mobi/dataset100.html
 
+optimized the net for TensorFlow Lite, and installed it in a prebuilt Android image classification app. I tested the app in the Android Studio emulator, using my laptop camera. 
 
+The app lists the three most likely predicted classes of food present in the camera's field of vision, in real time. The app can take a picture of the current image and the predicted classes for that image.
+
+The image dataset is not included in the GitHub repository for reasons of space; however, the final training summaries, retrained labels, and retrained net itself can be found in the 
+
+stephen_hw4/tf_files 
+
+folder of the GitHub repository.
+
+To run this app in Android Studio: go to the 
+
+"stephen_hw4/android/tflite" 
+
+folder on the GitHub repository. Inside, locate a folder titled "app". Build this "app" folder in Android Studio. Then you can either run the app on an emulator, or download it to your phone.
 
