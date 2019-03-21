@@ -31,7 +31,16 @@ I adapted code from https://www.appcoda.com/coreml-introduction/ and named the a
 This is an alternative first step to developing a shiny app that can identify objects or food in images. This file is called app.R. 
 
 
+#Suneeta Godbole's Contributions
 
+
+
+#Stephen Kwok's Contributions
+
+1. Blog post on autoencoders.
+2. Worked on Android app (adapted from Google Cloud Vision):
+
+--Added a credits button that displays a message containing the purpose of the project and the names of the team members who worked on it.
 
 
 
