@@ -33,6 +33,14 @@ This is an alternative first step to developing a shiny app that can identify ob
 
 #Suneeta Godbole's Contributions
 
+1.  For my blog post: I replicated the physical activity recognition post from: https://blogs.rstudio.com/tensorflow/posts/2018-07-17-activity-detection/. 
+All under suni_hw4 in the PAblog.Rmd file
+I attempted to improve the performance by changing the number of filters and adding a convolution layer and  playing with the spatial dropout layer. None of these modification improved the performance of the app. 
+
+
+2.  For the Android App called CloudVision. I adapted an app created by Fung Lam (seventhmoon) from: https://github.com/GoogleCloudPlatform/cloud-vision/tree/master/android. 
+I set up a project on the Google Cloud Platform called "M280 Food Recog Project". To this project I added the Cloud Vision service and set up an Cloud Vision API. Then I just added the API key to the app under the build.gradle. I had to add escape characters to the API keep to get the app to work. 
+Finally I added the same background that Kristen used in her app to the this one and changed the color of the header and image selection button. 
 
 
 #Stephen Kwok's Contributions
