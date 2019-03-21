@@ -32,4 +32,12 @@
         android:src="@android:drawable/ic_menu_gallery"
         app:backgroundTint="@color/colorPrimaryDark" />
 
+    <Button
+        android:id="@+id/credits_button"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:onClick="showToast"
+        android:layout_gravity="bottom"
+        android:text="@string/button_credits" />
+
 </android.support.design.widget.CoordinatorLayout>

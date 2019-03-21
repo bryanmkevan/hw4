@@ -27,8 +27,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:text="Biostats 280: Prototype Food Recognition App: Authors, Suneeta Godbole and Stephen Kwok. Use button in lower right
-to select or to take a picture."
+                android:text="Use button in lower right to select or take a picture."
                 android:textAppearance="@android:style/TextAppearance.Material.Medium"
                 android:visibility="visible" />
 

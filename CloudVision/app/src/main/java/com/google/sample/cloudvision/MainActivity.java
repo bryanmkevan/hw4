@@ -31,6 +31,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -243,6 +244,11 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG, "created Cloud Vision request object, sending request");
 
         return annotateRequest;
+    }
+
+    public void showToast(View view) {
+        Toast toast = Toast.makeText(this, R.string.toast_message, Toast.LENGTH_LONG);
+        toast.show();
     }
 
     private static class LableDetectionTask extends AsyncTask<Object, Void, String> {
