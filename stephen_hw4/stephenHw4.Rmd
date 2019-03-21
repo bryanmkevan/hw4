@@ -22,7 +22,7 @@ https://blogs.rstudio.com/tensorflow/posts/2018-10-22-mmd-vae/
 
 Below is the code for the standard VAE, taken from the link at the above blog.
 
-```{r}
+```{r eval=FALSE}
 
 #' This is part of the companion code to the post
 #' "Representation learning with MMD-VAE"
