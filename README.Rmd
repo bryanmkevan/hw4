@@ -55,7 +55,7 @@ stephen_hw4
 
 folder of the GitHub repository, along with .Rmd and html files titled stephenHw4.Rmd and stephenHw4.html. (Note: eval=FALSE has been set in the code blocks, since re-running the code would require a lot of time.)
 
-2. I added a simple credits button to the Google Cloud Vision Android app (discussed under Suneeta Godbole's contributions),  that, when clicked, displays a message containing the purpose of the project and the names of the team members who worked on it.
+2. I added a credits button to the Google Cloud Vision Android app (discussed under Suneeta Godbole's contributions),  that, when clicked, displays a message containing the purpose of the project and the names of the team members who worked on it.
 
 3. I put together a second Android food image classification app, adapting a project from:
 
